@@ -1,4 +1,4 @@
-FROM busybox:laetst
+FROM busybox:latest
 COPY . /demo
 WORKDIR /demo
 
