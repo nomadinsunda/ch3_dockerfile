@@ -1,5 +1,5 @@
 FROM busybox:latest
 MAINTAINER intheeast0305@gmail.com
-ADD demo.sh /demo/
+ADD demo.sh /demo/demo.sh
 WORKDIR /demo/
-CMD ./demo.sh
+CMD ["/demo/demo.sh"]
